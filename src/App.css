@@ -1,0 +1,212 @@
+.About{
+    flex-grow: 1;
+    border-radius: 20px;
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    font-size: 25px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.about-cv button{
+    background: none; 
+    border: 2px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+
+}
+
+.about-cv button:hover{
+    background-color: gray;
+}
+
+
+.about-links{
+    display: block;
+    margin: auto;
+}
+
+.about-links button {
+    background: none; /* Green */
+    border: 2px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display:  inline-block;
+    font-size: 16px;
+    margin: 20px;
+}
+
+.about-links img{   
+    margin-right: 10px;
+    display: inline;
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+
+
+.about-links button:hover{
+    background-color: white;
+    color: black;
+}
+
+.about-header{
+    height: 200px;
+    width: 100%;
+}
+
+.about-header img{
+    float: left;
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 17%;
+    height: 100%; 
+}
+
+.about-header h1{
+    margin-left: 150px;
+    position: relative;
+    top: 75px;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact{
+    flex-grow: 1;
+    height: 1000px;
+    margin: auto;
+}
+
+.contact-info{
+    text-align: justify;
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 10px;
+    width: 1000px;
+    height: 95%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+
+.Footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
+
+.Hero{
+    width: 100%;
+    margin: auto;
+    font: 30px;
+    height: 300px;
+    background: url('src/assets/wallpaper.jpg') center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    
+}
+
+.mobile-menu{
+     background-color: white;
+     color: black;
+     height: 900px;
+     text-align: center;
+     padding-top: 20px;
+     width: 100%;
+}
+
+.mobile-menu button{
+    width: 50%;
+    align-items: center;
+}
+
+.Nav{
+    flex-grow: 1;
+    background-color: black;
+    color: white;
+}
+
+.nav-items{
+    width: 50%;
+    margin: auto;
+}
+
+.Nav h1{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.Nav button{
+    padding: 10px;
+    color: white;
+    background-color: black;
+    font-size: large;
+    margin: 5px;
+    border: none;
+}
+
+.Nav button:hover{
+    color: gray;
+}
+
+
+.nav-mobile{
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .About{
+        width: 95%;
+        text-align: justify;
+    }
+
+    .about-header img{
+   
+        width: 30%;
+        height: 100%; 
+    }
+
+    .contact-info{
+        width: 95%;
+        text-align: justify;
+    }
+
+    .nav-items{
+        display: none;
+    }
+    .nav-mobile{
+        display: inline;
+        align-items: left;
+    }
+
+    .nav-mobile button {
+        align-items: center ;
+    }
+
+    .Nav button:hover{
+        background-color: grey;
+        color:black;
+        border-radius: 20px;
+    }
+} 
+
+
+
+
